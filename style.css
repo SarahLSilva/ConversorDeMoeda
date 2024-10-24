@@ -23,16 +23,23 @@ body {
     transform: scale(1.02);
 }
 
-h1 {
+.header h1 {
     font-size: 24px;
     margin-bottom: 20px;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
 }
 
-select, input {
+.input-group, .select-group, .button-group, .result-group {
+    margin: 10px 0;
+}
+
+.input-group{
+    width: 300px;
+}
+
+input, select {
     width: 100%;
     padding: 10px;
-    margin: 10px 0;
     border: 1px solid #444;
     border-radius: 4px;
     background-color: #333;
@@ -40,13 +47,13 @@ select, input {
     transition: background-color 0.3s;
 }
 
-select:focus, input:focus {
+input:focus, select:focus {
     background-color: #444;
     outline: none;
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #202020;
     color: white;
     border: none;
     padding: 10px;
@@ -57,12 +64,25 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #121412;
     transform: scale(1.05);
 }
 
-h2 {
+.result-group h2 {
     margin-top: 20px;
     font-size: 18px;
-    color: #4CAF50;
+    color: #131813;
+}
+.currency-input {
+    display: flex;
+    align-items: center;
+}
+
+#currencySymbol {
+    margin-right: 5px; 
+    font-size: 25px;   
+}
+
+p{
+   text-align: left;
 }
