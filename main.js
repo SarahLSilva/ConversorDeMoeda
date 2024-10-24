@@ -19,5 +19,13 @@ function updateCurrency() {
 updateCurrency();
 
 document.getElementById('container"').addEventListener('submit', function(event){
-    
+    const valor = parsefloat(document.getElementById('Tamanho').value);
+    const fromCurrency = document.getElementById('fromcurrency').value;
+    const toCurrency = document.getElementById('tocurrency').value;
+
+    //defir taxa de cambio fixo
+
+    const exchangeRates = {
+        USD: { EUR: 0.93, BRL: 5.71 }, BRL: { EUR: 0.16 , USD: 0.18 }, EUR: { USD:  1.08 , BRL: 6.17}
+    };
 });
