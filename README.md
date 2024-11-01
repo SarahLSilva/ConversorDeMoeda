@@ -1,6 +1,6 @@
 # 💱 Conversor de Moeda
 
-![banner](img/)
+![banner](img/Captura%20de%20tela%202024-11-01%20082615.png)
 
 # 💎 Principais Funções
 
