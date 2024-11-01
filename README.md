@@ -4,13 +4,13 @@
 
 # 💎 Principais Funções
 
-1. updateCurrency: Atualiza o símbolo da moeda com base na seleção de origem.
+1. updateCurrency
  
  
-2. Conversão de Moeda: Realiza a conversão do valor entre diferentes moedas com taxas de câmbio fixas.
+2. Conversão de Moeda
  
  
-3. Exibição do Resultado: Mostra o resultado da conversão na tela para o usuário.
+3. Exibição do Resultado
 
 # 🚀 Funcionalidades
 
