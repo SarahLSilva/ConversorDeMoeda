@@ -4,18 +4,28 @@
 
 # 💎 Principais Funções
 
-1. updateCurrency
+1. updateCurrency: Atualiza o símbolo da moeda com base na seleção de origem.
+ 
+ 
+2. Conversão de Moeda: Realiza a conversão do valor entre diferentes moedas com taxas de câmbio fixas.
+ 
+ 
+3. Exibição do Resultado: Mostra o resultado da conversão na tela para o usuário.
 
 # 🚀 Funcionalidades
 
-1. updateCurrency: Atualiza a moeda de conversão
-
-
+1. updateCurrency: Função que identifica a moeda de origem selecionada e atualiza o símbolo correspondente no campo de valor.
+ 
+ 
+2. Conversão de Moeda: Converte valores entre moedas usando taxas de câmbio predefinidas (USD, EUR, BRL).
+ 
+ 
+3. Validação de Entrada: Alerta o usuário para inserir um valor numérico válido.
 
 
 ## 🟡 Resumo-da-funcionalidade
 
-
+O conversor permite que o usuário escolha a moeda de origem e a moeda de destino, insira um valor e receba o resultado convertido em tempo real. Ele também realiza a atualização automática do símbolo da moeda ao escolher uma nova moeda de origem.
 
 # Explanação do codigo
 
@@ -25,10 +35,22 @@
 
 # ✨Atributos diferencias no codigo JavaScript
 
-
+A função updateCurrency() realiza a atualização automática do símbolo de moeda, proporcionando uma experiência visual mais intuitiva para o usuário.
+ 
+A função de conversão valida a entrada para garantir que valores válidos sejam inseridos antes de realizar qualquer operação de conversão.
+ 
 # ⚙️ Como Usar
 
-Insira o valor da moeda qual quer converter o valor em outra no primeiro campo e veja o resultado!
+1. Insira o valor que deseja converter no campo de entrada.
+ 
+ 
+2. Selecione a moeda de origem no primeiro menu suspenso.
+ 
+ 
+3. Escolha a moeda para a qual deseja converter no segundo menu suspenso.
+ 
+ 
+4. Clique em Converter para ver o resultado da conversão.
 
 # 🧮 Tecnologias Utilizadas
 
